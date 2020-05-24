@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Sample2Controller">
+   <children>
+      <Label layoutX="135.0" layoutY="179.0" onMouseClicked="#addcreerRDV" prefHeight="33.0" prefWidth="71.0" text="Creer RDV">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="422.0" layoutY="179.0" onMouseClicked="#addlisteRDVs" prefHeight="33.0" prefWidth="136.0" text="Visualiser Liste RDV">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="422.0" layoutY="393.0" onMouseClicked="#addtodayRDVs" prefHeight="33.0" prefWidth="115.0" text="RDVs D'aujourd'hui">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="109.0" layoutY="393.0" onMouseClicked="#addlistePatients" prefHeight="33.0" prefWidth="144.0" text="Visualiser Liste Patients">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Circle fx:id="myCircle" fill="DODGERBLUE" layoutX="166.0" layoutY="107.0" radius="72.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="myCircle1" fill="DODGERBLUE" layoutX="174.0" layoutY="321.0" radius="72.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="myCircle2" fill="DODGERBLUE" layoutX="480.0" layoutY="107.0" radius="72.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="myCircle3" fill="DODGERBLUE" layoutX="475.0" layoutY="321.0" radius="72.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
